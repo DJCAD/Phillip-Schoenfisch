@@ -1,0 +1,36 @@
+void loop() {
+    int voMeasured = analogRead(measurePin);
+    // Overall 3 states for the LEDs depending on Dust Sensor analog input
+    int totalStates = 3
+    int newLedState = 1023 / voMeasured * totalStates;
+    
+    
+    if (ledState != newLedState) {
+        // if the state has changed, increment the counter
+        ledState = newLedState
+        if (ledState == 1) {
+            for (int i = 0; i < 24; i++) {
+                strip.setPixelColor(i, 255, 0, 0, 0);
+                strip.show(); // Initialize all pixels to 'off'
+                delay(25);
+            }
+        }
+        else if (ledState == 2) {
+            for (int i = 0; i < 24; i++) {
+                strip.setPixelColor(i, 150, 150, 0, 0);
+                strip.show(); // Initialize all pixels to 'off'
+                delay(25);
+            }
+        }
+        else if (ledState == 3) {
+            for (int i = 0; i < 24; i++) {
+                strip.setPixelColor(i, 0, 255, 0, 0);
+                strip.show(); // Initialize all pixels to 'off'
+                delay(25);
+            }
+        }
+        
+    }
+    // Delay a little bit to avoid bouncing
+    delay(50);
+}
