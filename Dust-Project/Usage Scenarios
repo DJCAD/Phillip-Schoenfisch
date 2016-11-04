@@ -1,0 +1,28 @@
+Usage scenario:
+
+A user wants to measure the effects a new cleaning schedule has on the dust concentration in their bedroom. 
+The user is allergic to dust. The user downloads the application, sets up the device proceeds to pair it with their phone.
+The application then starts collecting the data the device is sending. The LED ring glows in a yellow colour, 
+showing unsatisfactory dust levels in the room.
+The data is sent out periodically, every hour a new data point is gathered 
+(this is done so the dust sensor value can be more average, higher update rates for the app may lead to higher fluctuations). 
+Over a couple of weeks, the user can observe a downward trend in dust quantity. 
+The LED indicator changes to green, reflecting this development. 
+This improved situation makes it easier for the user to manage their allergy to dust. 
+After several weeks, the user decides that yet another improvement may be needed.
+This is where the user can access the information supplied in the app which showcases effective methods to combat dust.
+The user opts to change their bedding more regularly based on the information supplied by the application,
+leading to a further improvement that can be observed on the application’s timeline.
+
+Expanded usage scenario:
+
+A hotel has been receiving complaints about the dustiness of the rooms. 
+The company decides to buy DustAware devices to quantify the dust levels in the rooms, leading to more easily observable results.
+The company then re-instructs the cleaning staff on how to combat dust and can then observe if the training has the desired effect. 
+Over the next month, dust levels are going down.
+The company later decides to add a DustAware device into every room, daisy chaining the devices through the application. 
+Now, the dust levels in every hotel room are observable and outliers can be more easily detected for cleaning. 
+The cleaning schedule is re-arranged, going from pre-set schedule to one where the rooms are cleaned for dust when the need arises
+based on the data gathered. This leads to a more efficient time allocation for cleaners. 
+The LED lights on the devices are left on inside the rooms during daylight hours to
+give customers ease of mind and act as a differentiator in cleanliness in comparison to other hotel chains.
