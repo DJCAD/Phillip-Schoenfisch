@@ -1,0 +1,33 @@
+This week I finalized the project. This included creating the chassis, writing the code, and shooting the pictures/videos.
+
+I opted to use the laser cutter for the chassis mockup. I cut in a grate like structure that made the wood foldable, which made the 
+assembly of the chassis less difficult. Wires are used to hold the chassis together, to maintain rigidity in the structure. 
+I wanted to keep it simple without having to use nails or lots of glue, as the chassis is supposed to be more of a prototype 
+than product complete in fit and finish.
+
+The chassis went through several iterations, with continuing refinements in rigidity and ease of assembly.
+
+The final design has both the Neopixel 24 LED Ring and Dust Sensor at the top of the mockup. 
+The overall shape resembles a trapezoid, with enough space to house both Arduino and Breadboard inside.
+I left the sides open so I could more easily configure the cables and mount the LED Ring + Dust Sensor and to give people 
+a chance to look inside.
+
+I placed several orders for my dust sensor, which all involved waiting for the deliveries to arrive
+(to my surprise, the dust sensor did not come bundled with the cables to make it work). Just when
+I thought I had all the necessary tools, I was missing a crimp tool for my crimp pins, making crimping 
+the wires into the adaptor impossible. This was Thursday, and the Makerspace people told me it was not 
+possible to get a crimp tool by Friday. Therefore, I decided to make a mock-up of the effects of the dust 
+sensor (with a heavy heart, because I really wanted to make it work). I regard this as a setback, but the 
+concept is still sound. I also added the dust sensor code to GitHub which could be applied to the working dust sensor right away.
+
+The code for the mockup has a button that can quickly trigger state changes in the LED. 
+This is based on the StateChangeDetection example from Arduino coupled with the Neopixel code for the 24 LED Ring.
+
+For the pictures, to simulate the dust I bought some flour. Our studio is now full of flour. 
+At the time of writing this, I am still finalizing the pictures/videos and will record the voice-over soon.
+
+I also refined the design of my application mockup, which is featured in the video.
+The design is based on PowerPoint, using action buttons to allow for touch interaction whilst in presentation mode. 
+The application is navigated with a tablet.
+
+The reflective blog post is still to be added as this is a recap of Week 4 specifically, showcasing the work done.
