@@ -1,14 +1,38 @@
-This week started with the introduction to the module. First we learned about the connected home and brainstormed ideas around possible products that may utilize the internet of things. We asked ourselves “what” a home is and looked at how different homes could be from each other. We then listed various parts of a home, including rooms, furniture and appliances and then saw how products could fit into this environment. We noticed that a home is not only made up of tangible, but also intangible properties, like comfort or security. The ideas we brainstormed were at times infeasible. I came up with LED walls that sensed the outside weather to simulate an external environment, or ideas like a sensory banana cannon that would purposefully try to hurt its user by hurling banana peels their way. The brainstorming was, however, a good icebreaker when it came to thinking about the subject matter.
+This week started with the introduction to the module. 
+First we learned about the connected home and brainstormed ideas around possible products that may utilize the internet of things.
+We asked ourselves “what” a home is and looked at how different homes could be from each other. We then listed various parts of a home,
+including rooms, furniture and appliances and then saw how products could fit into this environment. We noticed that a home is not 
+only made up of tangible, but also intangible properties, like comfort or security. The ideas we brainstormed were at times infeasible.
+I came up with LED walls that sensed the outside weather to simulate an external environment, or ideas like a sensory banana cannon that
+would purposefully try to hurt its user by hurling banana peels their way. The brainstorming was, however, a good icebreaker when it 
+came to thinking about the subject matter.
 
-The next step was to learn Arduino. We received an Arduino Uno the week prior that came with a starter kit. The first lesson in the IT room was an introduction into programming. It was not easy to soak up the information, however, a lot of previously unknown information was taught at a much too rapid pace. Only throughout the remainder of the week did I get more familiar with programming, step by step.
-My introduction project with the Arduino was to program a midi capable rotary knob. I copy/pasted the code and used LoopBe and Hairless MidiSerial to turn the analog signal of the rotary knob into midi data, that was then transmitted into Ableton Live, with the Arduino acting as remote. There was a lot of noise in the data and I did not manage to smooth it out perfectly, but the rotary knob worked on a basic level. It surprised me how easy this was and I am looking forward to building a Midi Controller in the future to control VSTs such as the Minimoog.
+The next step was to learn Arduino. We received an Arduino Uno the week prior that came with a starter kit. The first lesson in the IT
+room was an introduction into programming. It was not easy to soak up the information, however, a lot of previously unknown information 
+was taught at a much too rapid pace. Only throughout the remainder of the week did I get more familiar with programming, step by step.
 
-Up next I tried to learn the basic buttons, LEDs and circuitry. Only then became apparent to me the duality between circuitry and digital signal for the Arduino. It took me several days to fully grasp the interplay between the two.
+My introduction project with the Arduino was to program a midi capable rotary knob. I copy/pasted the code and used LoopBe and Hairless
+MidiSerial to turn the analog signal of the rotary knob into midi data, that was then transmitted into Ableton Live, with the Arduino 
+acting as remote. There was a lot of noise in the data and I did not manage to smooth it out perfectly, but the rotary knob worked on
+a basic level. It surprised me how easy this was and I am looking forward to building a Midi Controller in the future to control VSTs
+such as the Minimoog.
 
-I created a door bell that was based on the idea of it being hand phone accessible through an app, allowing users to ring the bell before physically arriving at the door. The application could be expanded for delivery services to ring the bell before they arrive, saving time and money. The application would, apart from that only allow pre-approved users to ring the bell.
+Up next I tried to learn the basic buttons, LEDs and circuitry. Only then became apparent to me the duality between circuitry 
+and digital signal for the Arduino. It took me several days to fully grasp the interplay between the two.
 
-Another notable idea was a temperature curtain. I used a servo motor that was triggered by temperature changes through a thermistor. Hypothetically, the curtain would close through the motor once the temperature went up by a certain degree, allowing the room to stay cooler. In practice, however, the thermistor gave me unreliable readings that were only deviating in 3-4 numbers, even when putting hot water next to it. I suspect my thermistor was broken.
+I created a door bell that was based on the idea of it being hand phone accessible through an app, allowing users to ring
+the bell before physically arriving at the door. The application could be expanded for delivery services to ring the bell 
+before they arrive, saving time and money. The application would, apart from that only allow pre-approved users to ring the bell.
 
-One of the bigger ideas was using pulsating LEDs as guidance in case of fire, to lead people towards an emergency exit. The idea is similar to that found in airplanes. These LED strips could lead to more safety in case smoke develops in fires, making it harder to see. Here I used the Arduino to program the LEDs to pulsate at different times, creating a ‘wave’ of LEDs that point in a direction.
+Another notable idea was a temperature curtain. I used a servo motor that was triggered by temperature changes through a thermistor. 
+Hypothetically, the curtain would close through the motor once the temperature went up by a certain degree, allowing the room to stay
+cooler. In practice, however, the thermistor gave me unreliable readings that were only deviating in 3-4 numbers, even when putting
+hot water next to it. I suspect my thermistor was broken.
 
-The next step will be to explore further how the Internet of Things could be integrated in ideas like this, using crowd sourced data to get a clearer picture of the environment, for example. 
+One of the bigger ideas was using pulsating LEDs as guidance in case of fire, to lead people towards an emergency exit.
+The idea is similar to that found in airplanes. These LED strips could lead to more safety in case smoke develops in fires,
+making it harder to see. Here I used the Arduino to program the LEDs to pulsate at different times, creating a ‘wave’ of LEDs that point 
+in a direction.
+
+The next step will be to explore further how the Internet of Things could be integrated in ideas like this, using crowd sourced
+data to get a clearer picture of the environment, for example. 
