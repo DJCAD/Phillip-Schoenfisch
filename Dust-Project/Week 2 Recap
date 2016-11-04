@@ -1,6 +1,29 @@
-This week was all about refining the previously thought up ideas and choosing a main idea to go forward with. My focus is on health & safety in the connected home. I already talked to John last week about the issue of dust mites in the home. I chose to continue down that road, brainstorming possible use cases around the topic of dust in the home. One of the most relevant questions to me was: “How can we quantify dust in the home?” Usually, dustiness is restricted to an impression, but there’s no hard data behind the actual quantity of dust. This also makes improvements to the living environment in regards to dustiness harder to notice beyond a ‘gut feeling’. Having hard data on dust can make life easier for those with allergies, because they can be more aware of the causes of their allergy and better manage the environment they live in.
-The idea is that the dust gets gathered on a tablet (device) that measures it. The dust accumulates slowly throughout the day. The data is then sent to the Arduino. From the Arduino, the data is sent to a user’s cellphone and added to a database that tracks changes in dust quantity over time. The results are sent daily, and can be displayed as an infographic. It can also show users if their room falls into a desired norm as far as dust quantity is concerned - a simple indicator could be sad, neutral and happy emoticons here.
-A possible addition could be an activity planner that lets users input the activities they are doing to combat dust, and have the app then see how effective these activities are, for users in the community to compare. This, however, may prove unreliable because it may be subject to false reporting or different levels of thoroughness in cleaning.
-My current worry is that the project is too big in scope. Whilst I have looked at particle counters it may become difficult to establish a direct link to the Arduino. I have extensively researched particle counters and they are expensive. The tablet may be an elegant idea, but it does not exist yet on the market. This may prove a problem when trying to create an implementation that goes beyond a mere concept.
-My initial idea was using a surface to detect the dust particles, but this would necessitate consulting an engineer to check for feasibility. I have already talked to some engineering students to try to get into contact with someone specializing in the field, and checking if would be a feasible proposition to measure the dust. The answer to this I do not know as of yet, though.
-Possible uses for the device go beyond the smart home, with especially hospitals and clinics being places that could use measurable dust levels because high dust levels can negatively impact patients. Getting hard data here could be useful to more accurately plan for improvements and measure their impact over time.
+This week was all about refining the previously thought up ideas and choosing a main idea to go forward with. 
+My focus is on health & safety in the connected home. I already talked to John last week about the issue of dust mites in the home. 
+I chose to continue down that road, brainstorming possible use cases around the topic of dust in the home.
+One of the most relevant questions to me was: “How can we quantify dust in the home?” Usually, dustiness is restricted to an impression,
+but there’s no hard data behind the actual quantity of dust. This also makes improvements to the living environment in regards 
+to dustiness harder to notice beyond a ‘gut feeling’. Having hard data on dust can make life easier for those with allergies,
+because they can be more aware of the causes of their allergy and better manage the environment they live in.
+
+The idea is that the dust gets gathered on a tablet (device) that measures it. The dust accumulates slowly throughout the day.
+The data is then sent to the Arduino. From the Arduino, the data is sent to a user’s cellphone and added to a database that 
+tracks changes in dust quantity over time. The results are sent daily, and can be displayed as an infographic. 
+It can also show users if their room falls into a desired norm as far as dust quantity is concerned - a simple indicator could be sad, 
+neutral and happy emoticons here.
+
+A possible addition could be an activity planner that lets users input the activities they are doing to combat dust, 
+and have the app then see how effective these activities are, for users in the community to compare. This, however,
+may prove unreliable because it may be subject to false reporting or different levels of thoroughness in cleaning.
+My current worry is that the project is too big in scope. Whilst I have looked at particle counters it may become 
+difficult to establish a direct link to the Arduino. I have extensively researched particle counters and they are expensive. 
+The tablet may be an elegant idea, but it does not exist yet on the market. This may prove a problem when trying to create
+an implementation that goes beyond a mere concept.
+
+My initial idea was using a surface to detect the dust particles, but this would necessitate consulting an engineer to check 
+for feasibility. I have already talked to some engineering students to try to get into contact with someone specializing in the field,
+and checking if would be a feasible proposition to measure the dust. The answer to this I do not know as of yet, though.
+
+Possible uses for the device go beyond the smart home, with especially hospitals and 
+clinics being places that could use measurable dust levels because high dust levels can negatively impact patients.
+Getting hard data here could be useful to more accurately plan for improvements and measure their impact over time.
