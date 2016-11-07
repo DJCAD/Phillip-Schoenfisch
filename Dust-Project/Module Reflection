@@ -1,0 +1,52 @@
+My focus in this module was to create a product that could have a potential impact beyond the appreciation of designer’s circles. 
+I did not want to create a product that serves as a symbol, or as an impetus towards emotion, but rather something with a 
+utilitarian application that could benefit the inhabitants of the smart home in a non-abstract way. By choosing health and 
+safety as the overarching theme, it became necessary to deliver on just that.
+
+My first major idea was using LED strips as emergency exit indicators for buildings that may have a difficult layout or may 
+not be up to sufficient fire safety standards (e.g. lack of signage). It could help in case smoke develops or the best route
+to exit the building may not be apparent. This was inspired by the emergency exit indicators in airplanes. It was difficult
+to make this idea connected, however, and I ultimately felt it was not good enough.
+
+After talking to Jon about it, he gave me a nudge in the direction of re-routing my project towards an application involving
+dust mite allergies, which I also suffer from. Here, the challenge lay in how it can be possible to extract data from the
+environment in an elegant and simple way that could benefit users without them having to the extra mile to make the product 
+work. Currently, mildew test kits and dust counters are available commercially, but they require active data gathering on 
+the user’s part and are not connected. This gave me the idea to create a device that can count dust passively, and then use
+the data gathered to compile information to empower the user by quantifying the changes and quantity of dust in their home
+at any given time.
+
+I tried to find if anything like it existed yet, and it did not. What I did not know in that moment was that a dust sensor
+for the Arduino did indeed exist. Before Martin told me about this, I thought up an elaborate way of quantifying dust by
+measuring tiny changes in static on a pad, and talked to an engineering student at the university to check how feasible this 
+would be (Hint: Apparently, it wasn’t!). All of this was a big headache, because the idea seemed too good to pass up. 
+Therefore, I was relieved when I was told that there was an Arduino compatible dust sensor waiting for me just a few 
+clicks and an order away.
+
+For the concept, there were a few necessary components like an application that interprets the data over the internet
+and an LED ring for a live indication of dust levels. There were also a few things I did not decide to focus on but 
+may be notable “nice to have” features, like daisy-chaining multiple devices, or using a motion sensor to switch on/off
+the somewhat bright LEDs.
+
+The next question was what to do with the data: Here I realized that any further functionality would add unnecessary 
+bloat to the project. I tried to come up with concepts of community integration, but each home is different and few
+changes in a community will directly impact the dust levels in individual homes. In the end, I decided that the product 
+should contain an idea section that could give users inspiration as to how they could most effectively combat their
+dust levels, so they can actively impact the data they are now aware of through the upkeep of their homes. A possible
+way of integrating the community could have been to rate each method by effectiveness, but I saw this as ultimatel
+y non-important, and individual implementations may differ too heavily from one another.
+
+Simplicity was key to the device function: The data needed to be interpretable without much effort. I decided to
+present the particle count number but to constrain it to green, yellow and red indicator colours that gives an
+intuitive impression of what the levels are like. To find the ideal levels, some additional research in various home 
+environments and consultation with health experts would be needed.
+
+As far as the course day to day was concerned, the coding was a great challenge. The introduction to coding seemed very hasty, 
+not giving us enough time to fully wrap our head around it. It would have been beneficial here to have a more collaborative
+approach with experts, all in one place, which is something that could have enhanced both learning and productivity and improved
+the signal to noise ratio.
+
+Overall, I am content with the outcome of the module and what I have created. It was also my first
+physical product prototype (the process behind it is outlined in the week 4 recap), so beyond code
+and concept it gave me the opportunity to work on the physical side of things, which has revealed a new 
+frontier I am eager to further explore.
